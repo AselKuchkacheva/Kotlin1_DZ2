@@ -2,11 +2,9 @@ package com.example.kotlin1_dz2.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.MediaStore
 import com.example.kotlin1_dz2.R
 import com.example.kotlin1_dz2.loadImage
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,7 +21,8 @@ class MainActivity : AppCompatActivity() {
     private fun submitImage() {
         btn_submit_main.setOnClickListener {
             if (!et_link_images_main.text.isNullOrEmpty()){
-                imageList.add(et_link_images_main.toString())
+                val link = et_link_images_main.text.toString()
+                imageList.add(link)
             }
         }
     }
