@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kotlin1_DZ2</string>
+    <string name="iv_description">Выводит выбранный рандомом картинку</string>
+    <string name="et_link">Ссылка картинки</string>
+    <string name="btn_submit">submit</string>
+    <string name="btn_random">random</string>
+</resources>
